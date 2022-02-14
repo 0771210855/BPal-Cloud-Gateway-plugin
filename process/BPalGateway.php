@@ -2,7 +2,7 @@
 
 class BPalGateway{
 	var $url = 'http://api.bpalcloud.com';
-	var $api_key = '311bb7906ba24cc3aa5314e67648245a';
+	var $api_key = 'XXXXXXXXXXXXXXXXXXXX';
 	
 	public function CollectFunds($serviceId, $tranId, $amount, $phone, $name, $reason){
 		$endPoint = $this->url.'/collections/create';

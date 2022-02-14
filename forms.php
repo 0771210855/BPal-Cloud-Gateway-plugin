@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: BPal Cloud Gateway
-Description: <strong>Installation</strong> Open the BPal cloud plugin in the plugin editor. In the process directory open BPalGateway file and paste the API key you are provided with. Save and close then activate the plugin. Use the Shortcode block to position the BPal collections form on your page or section.USE: <strong>[mtn_mobile_money_collection]</strong>for MTN , <strong>[airtel_mobile_money]</strong>for airtel.
+Description: <strong>Instructions:</strong> 1) In plugin editor, select BPal Cloud Gateway. 2) Under process directory, open BPalGateway.php and set the api_key by replacing XXXXXXXXXXXXXXXXXXXX with your API key. 3) Click Update File to save the changes. (Remeber to activate the plugin). 4) Use the Shortcode blocks bellow to position the BPal collection form on your page or page section: (i) MTN Mobile Money: <strong>[mtn_mobile_money_collection]</strong>. (ii) Airtel Money: <strong>[airtel_mobile_money]</strong></p>
 Version: 1.0
 Author: BPal Technologies
 url = 'http://bpalcloud.com'
@@ -11,7 +11,7 @@ url = 'http://bpalcloud.com'
 
 // Airtel money
 require_once('forms/forms_airtel_money.php');
- add_shortcode('airtel_money_collection','form_include_airtel');
+ add_shortcode('airtel_money_collection','form_include_airtel'); 
 
 
 // mtn mobile money
